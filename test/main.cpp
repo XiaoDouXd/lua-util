@@ -90,6 +90,9 @@ int main() {
   // call
   env.call();
 
+  // push val
+  env.push(79837);
+
   // ref and call lua func
   const auto luaFunc = env.ref_global("LuaFunc");
   env.call(luaFunc, 0.125, (const char*)"\"luaFunc strValue\"");
