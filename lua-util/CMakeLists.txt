@@ -32,6 +32,9 @@ project(lua-util)
 set(LUA_UTIL_SRC
   lua_util.cpp
   lua_util.hpp
+  lua_util_chunk.h
+  lua_util_chunk.cpp
+  lua_util_args.hpp
 )
 
 include_directories(./)
